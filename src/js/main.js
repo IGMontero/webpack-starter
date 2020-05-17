@@ -1,4 +1,6 @@
-const p5 = require('p5');
+import '../css/style.css';
+
+const p5 = new (require('p5'))();
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
